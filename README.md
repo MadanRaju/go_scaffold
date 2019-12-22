@@ -61,7 +61,7 @@ brew install dep
 You can use the traditional `go get` command to download this project into your configured GOPATH.
 
 ```
-$ go get -u inventory-optimisation-server
+$ go get -u go_scaffold
 ```
 
 ### Building the project
@@ -69,7 +69,7 @@ $ go get -u inventory-optimisation-server
 Navigate to the root of the project and use the `makefile` to build all of the services.
 
 ```
-$ cd $GOPATH/inventory-optimisation-server/cmd/api
+$ cd $GOPATH/go_scaffold/cmd/api
 $ go build
 ```
 
@@ -78,7 +78,7 @@ $ go build
 Navigate to the root of the project and use the `makefile` to run all of the services.
 
 ```
-$ cd $GOPATH/inventory-optimisation-server
+$ cd $GOPATH/go_scaffold
 $ ./api
 ```
 
